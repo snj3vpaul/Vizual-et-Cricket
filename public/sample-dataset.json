@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "1.0",
+  "player": {
+    "id": "synthetic-sample",
+    "displayName": "Fictional Sample Player (Demo)",
+    "role": "batter"
+  },
+  "appearances": [
+    {
+      "matchId": "sample-match-01",
+      "dateISO": "2025-05-01",
+      "format": "T20",
+      "team": "Sample XI",
+      "opponent": "Example CC",
+      "stage": "group",
+      "matchResult": "loss",
+      "batting": {
+        "runs": 8,
+        "balls": 11,
+        "position": 4,
+        "dismissed": false
+      }
+    },
+    {
+      "matchId": "sample-match-02",
+      "dateISO": "2025-05-15",
+      "format": "T20",
+      "team": "Sample XI",
+      "opponent": "Example CC",
+      "stage": "group",
+      "matchResult": "win",
+      "batting": {
+        "runs": 21,
+        "balls": 25,
+        "position": 4,
+        "dismissed": true
+      }
+    },
+    {
+      "matchId": "sample-match-03",
+      "dateISO": "2025-05-29",
+      "format": "T20",
+      "team": "Sample XI",
+      "opponent": "Example CC",
+      "stage": "group",
+      "matchResult": "loss",
+      "batting": {
+        "runs": 12,
+        "balls": 15,
+        "position": 4,
+        "dismissed": true
+      }
+    },
+    {
+      "matchId": "sample-match-04",
+      "dateISO": "2025-06-12",
+      "format": "T20",
+      "team": "Sample XI",
+      "opponent": "Example CC",
+      "stage": "group",
+      "matchResult": "win",
+      "batting": {
+        "runs": 34,
+        "balls": 38,
+        "position": 4,
+        "dismissed": true
+      }
+    },
+    {
+      "matchId": "sample-match-05",
+      "dateISO": "2025-06-26",
+      "format": "T20",
+      "team": "Sample XI",
+      "opponent": "Example CC",
+      "stage": "group",
+      "matchResult": "loss",
+      "batting": {
+        "runs": 18,
+        "balls": 22,
+        "position": 4,
+        "dismissed": false
+      }
+    },
+    {
+      "matchId": "sample-match-06",
+      "dateISO": "2025-07-10",
+      "format": "T20",
+      "team": "Sample XI",
+      "opponent": "Example CC",
+      "stage": "group",
+      "matchResult": "win",
+      "batting": {
+        "runs": 27,
+        "balls": 31,
+        "position": 4,
+        "dismissed": true
+      }
+    },
+    {
+      "matchId": "sample-match-07",
+      "dateISO": "2025-07-24",
+      "format": "T20",
+      "team": "Sample XI",
+      "opponent": "Example CC",
+      "stage": "group",
+      "matchResult": "loss",
+      "batting": {
+        "runs": 16,
+        "balls": 20,
+        "position": 4,
+        "dismissed": true
+      }
+    },
+    {
+      "matchId": "sample-match-08",
+      "dateISO": "2025-08-07",
+      "format": "T20",
+      "team": "Sample XI",
+      "opponent": "Example CC",
+      "stage": "group",
+      "matchResult": "win",
+      "batting": {
+        "runs": 41,
+        "balls": 46,
+        "position": 4,
+        "dismissed": true
+      }
+    },
+    {
+      "matchId": "sample-match-09",
+      "dateISO": "2025-08-21",
+      "format": "T20",
+      "team": "Sample XI",
+      "opponent": "Example CC",
+      "stage": "group",
+      "matchResult": "loss",
+      "batting": {
+        "runs": 19,
+        "balls": 23,
+        "position": 4,
+        "dismissed": false
+      }
+    },
+    {
+      "matchId": "sample-match-10",
+      "dateISO": "2025-09-04",
+      "format": "T20",
+      "team": "Sample XI",
+      "opponent": "Example CC",
+      "stage": "group",
+      "matchResult": "win",
+      "batting": {
+        "runs": 28,
+        "balls": 32,
+        "position": 4,
+        "dismissed": true
+      }
+    },
+    {
+      "matchId": "sample-match-11",
+      "dateISO": "2025-09-18",
+      "format": "T20",
+      "team": "Sample XI",
+      "opponent": "Example CC",
+      "stage": "group",
+      "matchResult": "loss",
+      "batting": {
+        "runs": 23,
+        "balls": 27,
+        "position": 4,
+        "dismissed": true
+      }
+    },
+    {
+      "matchId": "sample-match-12",
+      "dateISO": "2025-10-02",
+      "format": "T20",
+      "team": "Sample XI",
+      "opponent": "Example CC",
+      "stage": "group",
+      "matchResult": "win",
+      "batting": {
+        "runs": 37,
+        "balls": 42,
+        "position": 4,
+        "dismissed": true
+      }
+    }
+  ],
+  "provenance": {
+    "kind": "synthetic_demo",
+    "dataTier": "aggregate",
+    "importedAtISO": "2026-11-08T00:00:00Z",
+    "adapterVersion": "sample-1.0",
+    "permission": "demonstration",
+    "warnings": [
+      "This dataset is entirely fictional and intended only to illustrate import structure."
+    ]
+  }
+}

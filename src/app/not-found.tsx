@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <main className="container"><div className="centered-state"><div className="kicker">404 / OUTSIDE THE CREASE</div><h1>This page isn’t on the scorecard.</h1><p>The link may be incorrect or the report may be unavailable. Your next innings starts here.</p><div className="report-actions"><Link className="button button-primary" href="/">Return home</Link><Link className="button button-secondary" href="/dossier/demo">Explore demo</Link></div></div></main>}
